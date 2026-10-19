@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: placement-portal
-          image: panther59/placement-portal:v1
+          image: panther593/placement-portal:v1
           ports:
             - containerPort: 80
 ---
