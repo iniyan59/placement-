@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Placement Portal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+    header {
+      background: #123c69;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    nav {
+      background: #0f2947;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .stats, .companies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px #cbd5e1;
+      margin-bottom: 15px;
+    }
+    .stats h2 {
+      color: #2563eb;
+    }
+    footer {
+      text-align: center;
+      background: #123c69;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student Placement Portal</h1>
+    <p>Discover opportunities. Build your career.</p>
+  </header>
+
+  <nav>
+    <a href="#statistics">Statistics</a>
+    <a href="#companies">Companies</a>
+    <a href="#drives">Recruitment Drives</a>
+  </nav>
+
+  <main>
+    <section id="statistics">
+      <h2>Placement Statistics</h2>
+      <div class="stats">
+        <div class="card"><h2>850+</h2><p>Students Placed</p></div>
+        <div class="card"><h2>120+</h2><p>Recruiting Companies</p></div>
+        <div class="card"><h2>18 LPA</h2><p>Highest Package</p></div>
+      </div>
+    </section>
+
+    <section id="companies">
+      <h2>Company Profiles</h2>
+      <div class="companies">
+        <div class="card"><h3>TCS</h3><p>IT Services</p><p>Eligibility: B.Tech / M.Tech</p></div>
+        <div class="card"><h3>Infosys</h3><p>Technology Consulting</p><p>Eligibility: Programming skills</p></div>
+        <div class="card"><h3>Amazon</h3><p>E-commerce and Cloud</p><p>Eligibility: DSA and coding skills</p></div>
+      </div>
+    </section>
+
+    <section id="drives">
+      <h2>Upcoming Recruitment Drives</h2>
+      <div class="card">
+        <h3>Campus Recruitment - TCS</h3>
+        <p>Date: 25 November 2026</p>
+        <p>Eligibility: Minimum 7 CGPA</p>
+      </div>
+      <div class="card">
+        <h3>Campus Recruitment - Infosys</h3>
+        <p>Date: 2 December 2026</p>
+        <p>Eligibility: No active arrears</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>University Placement Cell</footer>
+</body>
+</html>
